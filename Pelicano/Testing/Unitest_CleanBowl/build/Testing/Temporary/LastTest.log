@@ -1,0 +1,66 @@
+Start testing: Mar 23 15:20 -05
+----------------------------------------------------------
+1/2 Testing: UnitTest.TestPass1
+1/2 Test: UnitTest.TestPass1
+Command: "/home/coink/Documents/ValidadorPelicano/Oink-Validator-Pelicano-main/Pelicano/Testing/Unitest_CleanBowl/build/Unitest_CleanBowl" "--gtest_filter=UnitTest.TestPass1" "--gtest_also_run_disabled_tests"
+Directory: /home/coink/Documents/ValidadorPelicano/Oink-Validator-Pelicano-main/Pelicano/Testing/Unitest_CleanBowl/build
+"UnitTest.TestPass1" start time: Mar 23 15:20 -05
+Output:
+----------------------------------------------------------
+Running main() from /home/coink/Documents/ValidadorPelicano/Oink-Validator-Pelicano-main/Pelicano/Testing/Unitest_CleanBowl/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = UnitTest.TestPass1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from UnitTest
+[ RUN      ] UnitTest.TestPass1
+[       OK ] UnitTest.TestPass1 (14104 ms)
+[----------] 1 test from UnitTest (14105 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (14105 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =  14.12 sec
+----------------------------------------------------------
+Test Passed.
+"UnitTest.TestPass1" end time: Mar 23 15:21 -05
+"UnitTest.TestPass1" time elapsed: 00:00:14
+----------------------------------------------------------
+
+2/2 Testing: UnitTest.TestFail1
+2/2 Test: UnitTest.TestFail1
+Command: "/home/coink/Documents/ValidadorPelicano/Oink-Validator-Pelicano-main/Pelicano/Testing/Unitest_CleanBowl/build/Unitest_CleanBowl" "--gtest_filter=UnitTest.TestFail1" "--gtest_also_run_disabled_tests"
+Directory: /home/coink/Documents/ValidadorPelicano/Oink-Validator-Pelicano-main/Pelicano/Testing/Unitest_CleanBowl/build
+"UnitTest.TestFail1" start time: Mar 23 15:21 -05
+Output:
+----------------------------------------------------------
+Running main() from /home/coink/Documents/ValidadorPelicano/Oink-Validator-Pelicano-main/Pelicano/Testing/Unitest_CleanBowl/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = UnitTest.TestFail1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from UnitTest
+[ RUN      ] UnitTest.TestFail1
+/home/coink/Documents/ValidadorPelicano/Oink-Validator-Pelicano-main/Pelicano/Testing/Unitest_CleanBowl/Unitest_CleanBowl.cpp:29: Failure
+Expected equality of these values:
+  TestFunctionFail1()
+    Which is: 0
+  -1
+[  FAILED  ] UnitTest.TestFail1 (14103 ms)
+[----------] 1 test from UnitTest (14104 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (14104 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] UnitTest.TestFail1
+
+ 1 FAILED TEST
+<end of output>
+Test time =  14.13 sec
+----------------------------------------------------------
+Test Failed.
+"UnitTest.TestFail1" end time: Mar 23 15:21 -05
+"UnitTest.TestFail1" time elapsed: 00:00:14
+----------------------------------------------------------
+
+End testing: Mar 23 15:21 -05

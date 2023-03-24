@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/UnitTest_StConnect.dir/UnitTest_StConnect.cpp.o ../ValidatorPelicano.o -o UnitTest_StConnect  lib/libgtest_main.a lib/libgtest.a -lpthread 

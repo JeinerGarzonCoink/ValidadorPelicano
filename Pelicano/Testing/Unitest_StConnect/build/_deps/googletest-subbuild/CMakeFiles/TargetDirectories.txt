@@ -1,0 +1,3 @@
+/home/coink/Documents/ValidadorPelicano/Oink-Validator-Pelicano-main/Pelicano/Testing/Unitest_StConnect/build/_deps/googletest-subbuild/CMakeFiles/rebuild_cache.dir
+/home/coink/Documents/ValidadorPelicano/Oink-Validator-Pelicano-main/Pelicano/Testing/Unitest_StConnect/build/_deps/googletest-subbuild/CMakeFiles/edit_cache.dir
+/home/coink/Documents/ValidadorPelicano/Oink-Validator-Pelicano-main/Pelicano/Testing/Unitest_StConnect/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate.dir

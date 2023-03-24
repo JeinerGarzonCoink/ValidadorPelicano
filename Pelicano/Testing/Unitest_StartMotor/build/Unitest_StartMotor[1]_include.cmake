@@ -1,0 +1,5 @@
+if(EXISTS "/home/coink/Documents/ValidadorPelicano/Oink-Validator-Pelicano-main/Pelicano/Testing/Unitest_StartMotor/build/Unitest_StartMotor[1]_tests.cmake")
+  include("/home/coink/Documents/ValidadorPelicano/Oink-Validator-Pelicano-main/Pelicano/Testing/Unitest_StartMotor/build/Unitest_StartMotor[1]_tests.cmake")
+else()
+  add_test(Unitest_StartMotor_NOT_BUILT Unitest_StartMotor_NOT_BUILT)
+endif()

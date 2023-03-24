@@ -1,0 +1,5 @@
+if(EXISTS "/home/coink/Documents/ValidadorPelicano/Oink-Validator-Pelicano-main/Pelicano/Testing/Unitest_SimplePoll/build/Unitest_SimplePoll[1]_tests.cmake")
+  include("/home/coink/Documents/ValidadorPelicano/Oink-Validator-Pelicano-main/Pelicano/Testing/Unitest_SimplePoll/build/Unitest_SimplePoll[1]_tests.cmake")
+else()
+  add_test(Unitest_SimplePoll_NOT_BUILT Unitest_SimplePoll_NOT_BUILT)
+endif()

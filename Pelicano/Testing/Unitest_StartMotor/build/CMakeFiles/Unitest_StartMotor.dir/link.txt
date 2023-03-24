@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/Unitest_StartMotor.dir/Unitest_StartMotor.cpp.o ../ValidatorPelicano.o -o Unitest_StartMotor  lib/libgtest_main.a lib/libgtest.a -lpthread 

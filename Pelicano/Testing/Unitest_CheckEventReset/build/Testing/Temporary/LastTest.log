@@ -1,0 +1,19 @@
+Start testing: Mar 23 15:57 -05
+----------------------------------------------------------
+Unable to find executable: Unitest_CheckEventReset_NOT_BUILT
+1/1 Testing: Unitest_CheckEventReset_NOT_BUILT
+1/1 Test: Unitest_CheckEventReset_NOT_BUILT
+Command: ""
+Directory: /home/coink/Documents/ValidadorPelicano/Oink-Validator-Pelicano-main/Pelicano/Testing/Unitest_CheckEventReset/build
+"Unitest_CheckEventReset_NOT_BUILT" start time: 
+Output:
+----------------------------------------------------------
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Unitest_CheckEventReset_NOT_BUILT" end time: Mar 23 15:57 -05
+"Unitest_CheckEventReset_NOT_BUILT" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Mar 23 15:57 -05

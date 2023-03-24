@@ -1,0 +1,4 @@
+UnitTest.TestPass1 1 0.116594
+UnitTest.TestFail1 0 0
+---
+UnitTest.TestFail1

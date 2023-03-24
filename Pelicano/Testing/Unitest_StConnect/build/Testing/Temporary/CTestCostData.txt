@@ -1,0 +1,5 @@
+UnitTest_StConnect_NOT_BUILT 0 0
+UnitTest.TestPass1 1 0.111081
+UnitTest.TestFail1 0 0
+---
+UnitTest.TestFail1

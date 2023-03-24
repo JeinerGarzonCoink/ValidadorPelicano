@@ -1,0 +1,10 @@
+UnitTest.TestPass1 1 0.118345
+UnitTest.TestFail1 0 0
+UnitTest.TestFail2 0 0
+UnitTest.TestFail3 0 0
+UnitTest.TestFail4 0 0
+---
+UnitTest.TestFail1
+UnitTest.TestFail2
+UnitTest.TestFail3
+UnitTest.TestFail4

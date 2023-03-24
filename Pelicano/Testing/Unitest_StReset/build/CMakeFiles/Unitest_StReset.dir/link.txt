@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/Unitest_StReset.dir/Unitest_StReset.cpp.o ../ValidatorPelicano.o -o Unitest_StReset  lib/libgtest_main.a lib/libgtest.a -lpthread 

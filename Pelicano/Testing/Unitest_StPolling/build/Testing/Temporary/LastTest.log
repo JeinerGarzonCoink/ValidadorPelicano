@@ -1,0 +1,174 @@
+Start testing: Mar 22 17:06 -05
+----------------------------------------------------------
+1/5 Testing: Unitest.TestPass1
+1/5 Test: Unitest.TestPass1
+Command: "/home/coink/Documents/ValidadorPelicano/Oink-Validator-Pelicano-main/Pelicano/Testing/Unitest_StPolling/build/Unitest_StPolling" "--gtest_filter=Unitest.TestPass1" "--gtest_also_run_disabled_tests"
+Directory: /home/coink/Documents/ValidadorPelicano/Oink-Validator-Pelicano-main/Pelicano/Testing/Unitest_StPolling/build
+"Unitest.TestPass1" start time: Mar 22 17:06 -05
+Output:
+----------------------------------------------------------
+Running main() from /home/coink/Documents/ValidadorPelicano/Oink-Validator-Pelicano-main/Pelicano/Testing/Unitest_StPolling/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Unitest.TestPass1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Unitest
+[ RUN      ] Unitest.TestPass1
+[       OK ] Unitest.TestPass1 (305 ms)
+[----------] 1 test from Unitest (305 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (305 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.32 sec
+----------------------------------------------------------
+Test Passed.
+"Unitest.TestPass1" end time: Mar 22 17:06 -05
+"Unitest.TestPass1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/5 Testing: Unitest.TestFail1
+2/5 Test: Unitest.TestFail1
+Command: "/home/coink/Documents/ValidadorPelicano/Oink-Validator-Pelicano-main/Pelicano/Testing/Unitest_StPolling/build/Unitest_StPolling" "--gtest_filter=Unitest.TestFail1" "--gtest_also_run_disabled_tests"
+Directory: /home/coink/Documents/ValidadorPelicano/Oink-Validator-Pelicano-main/Pelicano/Testing/Unitest_StPolling/build
+"Unitest.TestFail1" start time: Mar 22 17:06 -05
+Output:
+----------------------------------------------------------
+Running main() from /home/coink/Documents/ValidadorPelicano/Oink-Validator-Pelicano-main/Pelicano/Testing/Unitest_StPolling/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Unitest.TestFail1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Unitest
+[ RUN      ] Unitest.TestFail1
+/home/coink/Documents/ValidadorPelicano/Oink-Validator-Pelicano-main/Pelicano/Testing/Unitest_StPolling/Unitest_StPolling.cpp:67: Failure
+Expected equality of these values:
+  TestFunctionFail1()
+    Which is: 0
+  -2
+[  FAILED  ] Unitest.TestFail1 (306 ms)
+[----------] 1 test from Unitest (306 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (306 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] Unitest.TestFail1
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.33 sec
+----------------------------------------------------------
+Test Failed.
+"Unitest.TestFail1" end time: Mar 22 17:06 -05
+"Unitest.TestFail1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/5 Testing: Unitest.TestFail2
+3/5 Test: Unitest.TestFail2
+Command: "/home/coink/Documents/ValidadorPelicano/Oink-Validator-Pelicano-main/Pelicano/Testing/Unitest_StPolling/build/Unitest_StPolling" "--gtest_filter=Unitest.TestFail2" "--gtest_also_run_disabled_tests"
+Directory: /home/coink/Documents/ValidadorPelicano/Oink-Validator-Pelicano-main/Pelicano/Testing/Unitest_StPolling/build
+"Unitest.TestFail2" start time: Mar 22 17:06 -05
+Output:
+----------------------------------------------------------
+Running main() from /home/coink/Documents/ValidadorPelicano/Oink-Validator-Pelicano-main/Pelicano/Testing/Unitest_StPolling/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Unitest.TestFail2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Unitest
+[ RUN      ] Unitest.TestFail2
+/home/coink/Documents/ValidadorPelicano/Oink-Validator-Pelicano-main/Pelicano/Testing/Unitest_StPolling/Unitest_StPolling.cpp:72: Failure
+Expected equality of these values:
+  TestFunctionFail1()
+    Which is: 0
+  -1
+[  FAILED  ] Unitest.TestFail2 (304 ms)
+[----------] 1 test from Unitest (304 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (304 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] Unitest.TestFail2
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.33 sec
+----------------------------------------------------------
+Test Failed.
+"Unitest.TestFail2" end time: Mar 22 17:06 -05
+"Unitest.TestFail2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/5 Testing: Unitest.TestFail3
+4/5 Test: Unitest.TestFail3
+Command: "/home/coink/Documents/ValidadorPelicano/Oink-Validator-Pelicano-main/Pelicano/Testing/Unitest_StPolling/build/Unitest_StPolling" "--gtest_filter=Unitest.TestFail3" "--gtest_also_run_disabled_tests"
+Directory: /home/coink/Documents/ValidadorPelicano/Oink-Validator-Pelicano-main/Pelicano/Testing/Unitest_StPolling/build
+"Unitest.TestFail3" start time: Mar 22 17:06 -05
+Output:
+----------------------------------------------------------
+Running main() from /home/coink/Documents/ValidadorPelicano/Oink-Validator-Pelicano-main/Pelicano/Testing/Unitest_StPolling/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Unitest.TestFail3
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Unitest
+[ RUN      ] Unitest.TestFail3
+/home/coink/Documents/ValidadorPelicano/Oink-Validator-Pelicano-main/Pelicano/Testing/Unitest_StPolling/Unitest_StPolling.cpp:77: Failure
+Expected equality of these values:
+  TestFunctionFail1()
+    Which is: 0
+  1
+[  FAILED  ] Unitest.TestFail3 (306 ms)
+[----------] 1 test from Unitest (306 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (306 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] Unitest.TestFail3
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.33 sec
+----------------------------------------------------------
+Test Failed.
+"Unitest.TestFail3" end time: Mar 22 17:06 -05
+"Unitest.TestFail3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/5 Testing: Unitest.TestFail4
+5/5 Test: Unitest.TestFail4
+Command: "/home/coink/Documents/ValidadorPelicano/Oink-Validator-Pelicano-main/Pelicano/Testing/Unitest_StPolling/build/Unitest_StPolling" "--gtest_filter=Unitest.TestFail4" "--gtest_also_run_disabled_tests"
+Directory: /home/coink/Documents/ValidadorPelicano/Oink-Validator-Pelicano-main/Pelicano/Testing/Unitest_StPolling/build
+"Unitest.TestFail4" start time: Mar 22 17:06 -05
+Output:
+----------------------------------------------------------
+Running main() from /home/coink/Documents/ValidadorPelicano/Oink-Validator-Pelicano-main/Pelicano/Testing/Unitest_StPolling/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = Unitest.TestFail4
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from Unitest
+[ RUN      ] Unitest.TestFail4
+/home/coink/Documents/ValidadorPelicano/Oink-Validator-Pelicano-main/Pelicano/Testing/Unitest_StPolling/Unitest_StPolling.cpp:82: Failure
+Expected equality of these values:
+  TestFunctionFail1()
+    Which is: 0
+  2
+[  FAILED  ] Unitest.TestFail4 (304 ms)
+[----------] 1 test from Unitest (304 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (305 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] Unitest.TestFail4
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.33 sec
+----------------------------------------------------------
+Test Failed.
+"Unitest.TestFail4" end time: Mar 22 17:06 -05
+"Unitest.TestFail4" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Mar 22 17:06 -05

@@ -1,0 +1,5 @@
+if(EXISTS "/home/coink/Documents/ValidadorPelicano/Oink-Validator-Pelicano-main/Pelicano/Testing/Unitest_CleanBowl/build/Unitest_CleanBowl[1]_tests.cmake")
+  include("/home/coink/Documents/ValidadorPelicano/Oink-Validator-Pelicano-main/Pelicano/Testing/Unitest_CleanBowl/build/Unitest_CleanBowl[1]_tests.cmake")
+else()
+  add_test(Unitest_CleanBowl_NOT_BUILT Unitest_CleanBowl_NOT_BUILT)
+endif()

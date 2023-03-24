@@ -1,0 +1,102 @@
+Start testing: Mar 14 12:59 -05
+----------------------------------------------------------
+1/3 Testing: UnitTest.TestPass1
+1/3 Test: UnitTest.TestPass1
+Command: "/home/coink/Documents/ValidadorPelicano/Oink-Validator-Pelicano-main/Pelicano/Testing/Unitest_StCheck/build/UnitTest_StCheck" "--gtest_filter=UnitTest.TestPass1" "--gtest_also_run_disabled_tests"
+Directory: /home/coink/Documents/ValidadorPelicano/Oink-Validator-Pelicano-main/Pelicano/Testing/Unitest_StCheck/build
+"UnitTest.TestPass1" start time: Mar 14 12:59 -05
+Output:
+----------------------------------------------------------
+Running main() from /home/coink/Documents/ValidadorPelicano/Oink-Validator-Pelicano-main/Pelicano/Testing/Unitest_StCheck/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = UnitTest.TestPass1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from UnitTest
+[ RUN      ] UnitTest.TestPass1
+[       OK ] UnitTest.TestPass1 (603 ms)
+[----------] 1 test from UnitTest (603 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (603 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.61 sec
+----------------------------------------------------------
+Test Passed.
+"UnitTest.TestPass1" end time: Mar 14 12:59 -05
+"UnitTest.TestPass1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/3 Testing: UnitTest.TestFail1
+2/3 Test: UnitTest.TestFail1
+Command: "/home/coink/Documents/ValidadorPelicano/Oink-Validator-Pelicano-main/Pelicano/Testing/Unitest_StCheck/build/UnitTest_StCheck" "--gtest_filter=UnitTest.TestFail1" "--gtest_also_run_disabled_tests"
+Directory: /home/coink/Documents/ValidadorPelicano/Oink-Validator-Pelicano-main/Pelicano/Testing/Unitest_StCheck/build
+"UnitTest.TestFail1" start time: Mar 14 12:59 -05
+Output:
+----------------------------------------------------------
+Running main() from /home/coink/Documents/ValidadorPelicano/Oink-Validator-Pelicano-main/Pelicano/Testing/Unitest_StCheck/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = UnitTest.TestFail1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from UnitTest
+[ RUN      ] UnitTest.TestFail1
+/home/coink/Documents/ValidadorPelicano/Oink-Validator-Pelicano-main/Pelicano/Testing/Unitest_StCheck/UnitTest_StCheck.cpp:46: Failure
+Expected equality of these values:
+  TestFunctionFail1()
+    Which is: 0
+  -1
+[  FAILED  ] UnitTest.TestFail1 (602 ms)
+[----------] 1 test from UnitTest (602 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (603 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] UnitTest.TestFail1
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.62 sec
+----------------------------------------------------------
+Test Failed.
+"UnitTest.TestFail1" end time: Mar 14 12:59 -05
+"UnitTest.TestFail1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/3 Testing: UnitTest.TestFail2
+3/3 Test: UnitTest.TestFail2
+Command: "/home/coink/Documents/ValidadorPelicano/Oink-Validator-Pelicano-main/Pelicano/Testing/Unitest_StCheck/build/UnitTest_StCheck" "--gtest_filter=UnitTest.TestFail2" "--gtest_also_run_disabled_tests"
+Directory: /home/coink/Documents/ValidadorPelicano/Oink-Validator-Pelicano-main/Pelicano/Testing/Unitest_StCheck/build
+"UnitTest.TestFail2" start time: Mar 14 12:59 -05
+Output:
+----------------------------------------------------------
+Running main() from /home/coink/Documents/ValidadorPelicano/Oink-Validator-Pelicano-main/Pelicano/Testing/Unitest_StCheck/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = UnitTest.TestFail2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from UnitTest
+[ RUN      ] UnitTest.TestFail2
+/home/coink/Documents/ValidadorPelicano/Oink-Validator-Pelicano-main/Pelicano/Testing/Unitest_StCheck/UnitTest_StCheck.cpp:51: Failure
+Expected equality of these values:
+  TestFunctionFail2()
+    Which is: 0
+  2
+[  FAILED  ] UnitTest.TestFail2 (603 ms)
+[----------] 1 test from UnitTest (603 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (604 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] UnitTest.TestFail2
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.61 sec
+----------------------------------------------------------
+Test Failed.
+"UnitTest.TestFail2" end time: Mar 14 12:59 -05
+"UnitTest.TestFail2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Mar 14 12:59 -05

@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/UnitTest_StPolling.dir/UnitTest_StPolling.cpp.o ../ValidatorPelicano.o -o UnitTest_StPolling  lib/libgtest_main.a lib/libgtest.a -lpthread 

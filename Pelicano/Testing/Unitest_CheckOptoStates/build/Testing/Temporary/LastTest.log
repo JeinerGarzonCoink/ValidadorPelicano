@@ -1,0 +1,174 @@
+Start testing: Mar 23 15:39 -05
+----------------------------------------------------------
+1/5 Testing: UnitTest.TestPass1
+1/5 Test: UnitTest.TestPass1
+Command: "/home/coink/Documents/ValidadorPelicano/Oink-Validator-Pelicano-main/Pelicano/Testing/Unitest_CheckOptoStates/build/Unitest_CheckOptoStates" "--gtest_filter=UnitTest.TestPass1" "--gtest_also_run_disabled_tests"
+Directory: /home/coink/Documents/ValidadorPelicano/Oink-Validator-Pelicano-main/Pelicano/Testing/Unitest_CheckOptoStates/build
+"UnitTest.TestPass1" start time: Mar 23 15:39 -05
+Output:
+----------------------------------------------------------
+Running main() from /home/coink/Documents/ValidadorPelicano/Oink-Validator-Pelicano-main/Pelicano/Testing/Unitest_CheckOptoStates/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = UnitTest.TestPass1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from UnitTest
+[ RUN      ] UnitTest.TestPass1
+[       OK ] UnitTest.TestPass1 (104 ms)
+[----------] 1 test from UnitTest (104 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (104 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Passed.
+"UnitTest.TestPass1" end time: Mar 23 15:39 -05
+"UnitTest.TestPass1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/5 Testing: UnitTest.TestFail1
+2/5 Test: UnitTest.TestFail1
+Command: "/home/coink/Documents/ValidadorPelicano/Oink-Validator-Pelicano-main/Pelicano/Testing/Unitest_CheckOptoStates/build/Unitest_CheckOptoStates" "--gtest_filter=UnitTest.TestFail1" "--gtest_also_run_disabled_tests"
+Directory: /home/coink/Documents/ValidadorPelicano/Oink-Validator-Pelicano-main/Pelicano/Testing/Unitest_CheckOptoStates/build
+"UnitTest.TestFail1" start time: Mar 23 15:39 -05
+Output:
+----------------------------------------------------------
+Running main() from /home/coink/Documents/ValidadorPelicano/Oink-Validator-Pelicano-main/Pelicano/Testing/Unitest_CheckOptoStates/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = UnitTest.TestFail1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from UnitTest
+[ RUN      ] UnitTest.TestFail1
+/home/coink/Documents/ValidadorPelicano/Oink-Validator-Pelicano-main/Pelicano/Testing/Unitest_CheckOptoStates/Unitest_CheckOptoStates.cpp:53: Failure
+Expected equality of these values:
+  TestFunctionFail1()
+    Which is: 0
+  1
+[  FAILED  ] UnitTest.TestFail1 (105 ms)
+[----------] 1 test from UnitTest (105 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (105 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] UnitTest.TestFail1
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Failed.
+"UnitTest.TestFail1" end time: Mar 23 15:39 -05
+"UnitTest.TestFail1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/5 Testing: UnitTest.TestFail2
+3/5 Test: UnitTest.TestFail2
+Command: "/home/coink/Documents/ValidadorPelicano/Oink-Validator-Pelicano-main/Pelicano/Testing/Unitest_CheckOptoStates/build/Unitest_CheckOptoStates" "--gtest_filter=UnitTest.TestFail2" "--gtest_also_run_disabled_tests"
+Directory: /home/coink/Documents/ValidadorPelicano/Oink-Validator-Pelicano-main/Pelicano/Testing/Unitest_CheckOptoStates/build
+"UnitTest.TestFail2" start time: Mar 23 15:39 -05
+Output:
+----------------------------------------------------------
+Running main() from /home/coink/Documents/ValidadorPelicano/Oink-Validator-Pelicano-main/Pelicano/Testing/Unitest_CheckOptoStates/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = UnitTest.TestFail2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from UnitTest
+[ RUN      ] UnitTest.TestFail2
+/home/coink/Documents/ValidadorPelicano/Oink-Validator-Pelicano-main/Pelicano/Testing/Unitest_CheckOptoStates/Unitest_CheckOptoStates.cpp:58: Failure
+Expected equality of these values:
+  TestFunctionFail1()
+    Which is: 0
+  2
+[  FAILED  ] UnitTest.TestFail2 (104 ms)
+[----------] 1 test from UnitTest (104 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (105 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] UnitTest.TestFail2
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Failed.
+"UnitTest.TestFail2" end time: Mar 23 15:39 -05
+"UnitTest.TestFail2" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/5 Testing: UnitTest.TestFail3
+4/5 Test: UnitTest.TestFail3
+Command: "/home/coink/Documents/ValidadorPelicano/Oink-Validator-Pelicano-main/Pelicano/Testing/Unitest_CheckOptoStates/build/Unitest_CheckOptoStates" "--gtest_filter=UnitTest.TestFail3" "--gtest_also_run_disabled_tests"
+Directory: /home/coink/Documents/ValidadorPelicano/Oink-Validator-Pelicano-main/Pelicano/Testing/Unitest_CheckOptoStates/build
+"UnitTest.TestFail3" start time: Mar 23 15:39 -05
+Output:
+----------------------------------------------------------
+Running main() from /home/coink/Documents/ValidadorPelicano/Oink-Validator-Pelicano-main/Pelicano/Testing/Unitest_CheckOptoStates/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = UnitTest.TestFail3
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from UnitTest
+[ RUN      ] UnitTest.TestFail3
+/home/coink/Documents/ValidadorPelicano/Oink-Validator-Pelicano-main/Pelicano/Testing/Unitest_CheckOptoStates/Unitest_CheckOptoStates.cpp:63: Failure
+Expected equality of these values:
+  TestFunctionFail1()
+    Which is: 0
+  -1
+[  FAILED  ] UnitTest.TestFail3 (105 ms)
+[----------] 1 test from UnitTest (105 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (105 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] UnitTest.TestFail3
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Failed.
+"UnitTest.TestFail3" end time: Mar 23 15:39 -05
+"UnitTest.TestFail3" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/5 Testing: UnitTest.TestFail4
+5/5 Test: UnitTest.TestFail4
+Command: "/home/coink/Documents/ValidadorPelicano/Oink-Validator-Pelicano-main/Pelicano/Testing/Unitest_CheckOptoStates/build/Unitest_CheckOptoStates" "--gtest_filter=UnitTest.TestFail4" "--gtest_also_run_disabled_tests"
+Directory: /home/coink/Documents/ValidadorPelicano/Oink-Validator-Pelicano-main/Pelicano/Testing/Unitest_CheckOptoStates/build
+"UnitTest.TestFail4" start time: Mar 23 15:39 -05
+Output:
+----------------------------------------------------------
+Running main() from /home/coink/Documents/ValidadorPelicano/Oink-Validator-Pelicano-main/Pelicano/Testing/Unitest_CheckOptoStates/build/_deps/googletest-src/googletest/src/gtest_main.cc
+Note: Google Test filter = UnitTest.TestFail4
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from UnitTest
+[ RUN      ] UnitTest.TestFail4
+/home/coink/Documents/ValidadorPelicano/Oink-Validator-Pelicano-main/Pelicano/Testing/Unitest_CheckOptoStates/Unitest_CheckOptoStates.cpp:68: Failure
+Expected equality of these values:
+  TestFunctionFail1()
+    Which is: 0
+  -2
+[  FAILED  ] UnitTest.TestFail4 (104 ms)
+[----------] 1 test from UnitTest (104 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (105 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] UnitTest.TestFail4
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.12 sec
+----------------------------------------------------------
+Test Failed.
+"UnitTest.TestFail4" end time: Mar 23 15:39 -05
+"UnitTest.TestFail4" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Mar 23 15:39 -05

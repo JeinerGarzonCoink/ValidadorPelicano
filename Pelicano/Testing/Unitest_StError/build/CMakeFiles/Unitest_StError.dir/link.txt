@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/Unitest_StError.dir/Unitest_StError.cpp.o ../ValidatorPelicano.o -o Unitest_StError  lib/libgtest_main.a lib/libgtest.a -lpthread 

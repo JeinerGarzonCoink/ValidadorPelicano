@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/Unitest_CheckOptoStates.dir/Unitest_CheckOptoStates.cpp.o ../ValidatorPelicano.o -o Unitest_CheckOptoStates  lib/libgtest_main.a lib/libgtest.a -lpthread 

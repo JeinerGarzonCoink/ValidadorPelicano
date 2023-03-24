@@ -1,0 +1,6 @@
+Instalar extensiones en visual studio
+
+C/C++
+Cmake Tools
+
+sudo apt install cmake

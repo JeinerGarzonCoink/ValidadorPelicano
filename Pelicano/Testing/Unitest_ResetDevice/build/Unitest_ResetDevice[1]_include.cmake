@@ -1,0 +1,5 @@
+if(EXISTS "/home/coink/Documents/ValidadorPelicano/Oink-Validator-Pelicano-main/Pelicano/Testing/Unitest_ResetDevice/build/Unitest_ResetDevice[1]_tests.cmake")
+  include("/home/coink/Documents/ValidadorPelicano/Oink-Validator-Pelicano-main/Pelicano/Testing/Unitest_ResetDevice/build/Unitest_ResetDevice[1]_tests.cmake")
+else()
+  add_test(Unitest_ResetDevice_NOT_BUILT Unitest_ResetDevice_NOT_BUILT)
+endif()

@@ -1,0 +1,5 @@
+if(EXISTS "/home/coink/Documents/ValidadorPelicano/Oink-Validator-Pelicano-main/Pelicano/Testing/Unitest_StConnect/build/UnitTest_StConnect[1]_tests.cmake")
+  include("/home/coink/Documents/ValidadorPelicano/Oink-Validator-Pelicano-main/Pelicano/Testing/Unitest_StConnect/build/UnitTest_StConnect[1]_tests.cmake")
+else()
+  add_test(UnitTest_StConnect_NOT_BUILT UnitTest_StConnect_NOT_BUILT)
+endif()

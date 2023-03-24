@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/Unitest_SimplePoll.dir/Unitest_SimplePoll.cpp.o ../ValidatorPelicano.o -o Unitest_SimplePoll  lib/libgtest_main.a lib/libgtest.a -lpthread 
